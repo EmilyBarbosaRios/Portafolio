@@ -1,0 +1,46 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;;
+    margin:0;
+    padding: 0;
+}
+header{
+    background: linear-gradient(to top, rgba(117,191,151,100%), rgba(117,191,151,0%)), url(../SRC/img/códigoport.jpg);
+    background-size:cover;
+}
+nav{
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#fotopersonal{
+    text-align: center;
+}
+
+#misProyectos{
+    background:  linear-gradient(to top, rgba(117,191,151,75%), rgba(117,191,151,50%)), url(../SRC/img/math-U5mHl-uACe0-unsplash.jpg);
+    
+}
+.card{
+    background-color: #42BC89;
+}
+
+#contacto{
+    background: linear-gradient(to top, rgba(117,191,151,50%), rgba(117,191,151,25%)), url(../SRC/img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+    background-size:cover;
+    height:95vh
+
+
+}
+#btnEnviar{
+    background-color:#42BC89;
+    align-content: center;
+    justify-items: center;
+}
+
+footer{
+    background-color:#42BC89;
+}
