@@ -44,3 +44,11 @@ nav{
 footer{
     background-color:#42BC89;
 }
+
+#fotopersonal{
+	transition: 0.5s ease-in-out;
+	object-fit: cover;
+}
+#fotopersonal:hover{
+    transform:scale(1.2)
+}
