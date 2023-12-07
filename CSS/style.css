@@ -5,7 +5,10 @@
     font-family:'Poppins', sans-serif;;
     margin:0;
     padding: 0;
+    box-sizing: border-box;
+
 }
+
 header{
     background: linear-gradient(to top, rgba(117,191,151,100%), rgba(117,191,151,0%)), url(../SRC/img/códigoport.jpg);
     background-size:cover;
@@ -25,7 +28,13 @@ nav{
     
 }
 .card{
-    background-color: #42BC89;
+    background-color:rgba(117,191,151,40%) ;
+    transition: all 400ms ease;
+	object-fit: cover;
+}
+.card:hover{
+    box-shadow: 5px px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
 }
 
 #contacto{
@@ -43,12 +52,15 @@ nav{
 
 footer{
     background-color:#42BC89;
+    height:6rem;
+    align-content: center;
+    justify-items: center;
 }
 
-#fotopersonal{
+#fotopersonalEm{
 	transition: 0.5s ease-in-out;
 	object-fit: cover;
 }
-#fotopersonal:hover{
+#fotopersonalEm:hover{
     transform:scale(1.2)
 }
