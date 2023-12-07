@@ -33,7 +33,7 @@ nav{
 	object-fit: cover;
 }
 .card:hover{
-    box-shadow: 5px px 20px rgba(0,0,0,0.4);
+
     transform: translateY(-3%);
 }
 
