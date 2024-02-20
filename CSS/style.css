@@ -1,66 +1,66 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-*{
-    box-sizing: border-box;
-    font-family:'Poppins', sans-serif;;
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+ * {
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     margin: 0;
+     padding: 0;
+ }
 
-}
+ header {
+     background: linear-gradient(to top, rgba(117, 191, 151, 100%), rgba(117, 191, 151, 0%)), url(../SRC/img/códigoport.jpg);
+     background-size: cover;
+ }
 
-header{
-    background: linear-gradient(to top, rgba(117,191,151,100%), rgba(117,191,151,0%)), url(../SRC/img/códigoport.jpg);
-    background-size:cover;
-}
-nav{
-    justify-content:space-between;
-    align-items: center;
-    text-align: center;
-}
+ nav {
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+ }
 
-#fotopersonal{
-    text-align: center;
-}
+ #fotopersonal {
+     text-align: center;
+ }
 
-#misProyectos{
-    background:  linear-gradient(to top, rgba(117,191,151,75%), rgba(117,191,151,50%)), url(../SRC/img/math-U5mHl-uACe0-unsplash.jpg);
-    
-}
-.card{
-    background-color:rgba(117,191,151,40%) ;
-    transition: all 400ms ease;
-	object-fit: cover;
-}
-.card:hover{
+ #misProyectos {
+     background: linear-gradient(to top, rgba(117, 191, 151, 75%), rgba(117, 191, 151, 50%)), url(../SRC/img/math-U5mHl-uACe0-unsplash.jpg);
 
-    transform: translateY(-3%);
-}
+ }
 
-#contacto{
-    background: linear-gradient(to top, rgba(117,191,151,50%), rgba(117,191,151,25%)), url(../SRC/img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
-    background-size:cover;
-    height:95vh
+ .card {
+     background-color: rgba(117, 191, 151, 40%);
+     transition: all 400ms ease;
+     object-fit: cover;
+ }
 
+ .card:hover {
 
-}
-#btnEnviar{
-    background-color:#42BC89;
-    align-content: center;
-    justify-items: center;
-}
+     transform: translateY(-3%);
+ }
 
-footer{
-    background-color:#42BC89;
-    height:6rem;
-    align-content: center;
-    justify-items: center;
-}
+ #contacto {
+     background: linear-gradient(to top, rgba(117, 191, 151, 50%), rgba(117, 191, 151, 25%)), url(../SRC/img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+     background-size: cover;
+ }
 
-#fotopersonalEm{
-	transition: 0.5s ease-in-out;
-	object-fit: cover;
-}
-#fotopersonalEm:hover{
-    transform:scale(1.2)
-}
+ #btnEnviar {
+     background-color: #42BC89;
+     align-content: center;
+     justify-items: center;
+ }
+
+ footer {
+     background-color: #42BC89;
+     height: 8.5rem;
+     align-content: center;
+     justify-items: center;
+ }
+
+ #fotopersonalEm {
+     transition: 0.5s ease-in-out;
+     object-fit: cover;
+ }
+
+ #fotopersonalEm:hover {
+     transform: scale(1.2)
+ }
